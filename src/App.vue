@@ -3,7 +3,6 @@
     <Navbar />
     <router-view class="container" />
     <Footer class="mt-auto" />
-    <notifications group="main" position="center bottom" />
   </div>
 </template>
 
@@ -14,8 +13,8 @@ export default {
   name: "app",
   components: {
     Navbar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 

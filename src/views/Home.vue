@@ -2,20 +2,22 @@
   <div class="home">
     <Carousel />
     <About />
+    <Form />
   </div>
 </template>
 
 <script>
 import Carousel from "../components/Home/Carousel";
-import About from "../components/Home/About";
+import About from "./About";
+import Form from "../components/Contact/Form";
 
 export default {
   name: "Home",
   components: {
     Carousel,
-    About
-  }
+    About,
+    Form,
+  },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
