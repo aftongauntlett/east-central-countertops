@@ -1,14 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <Jumbotron />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import Jumbotron from "../components/Home/Jumbotron";
 
 export default {
   name: "Home",
-  components: {}
+  components: {
+    Jumbotron
+  }
 };
 </script>
+<style scoped>
+</style>
