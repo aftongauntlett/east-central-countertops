@@ -1,16 +1,19 @@
 <template>
   <div class="home">
-    <Jumbotron />
+    <Carousel />
+    <About />
   </div>
 </template>
 
 <script>
-import Jumbotron from "../components/Home/Jumbotron";
+import Carousel from "../components/Home/Carousel";
+import About from "../components/Home/About";
 
 export default {
   name: "Home",
   components: {
-    Jumbotron
+    Carousel,
+    About
   }
 };
 </script>
