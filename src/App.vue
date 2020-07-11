@@ -28,4 +28,8 @@ export default {
   min-height: 100vh;
   min-width: 100vw;
 }
+
+body {
+  background-color: white !important;
+}
 </style>

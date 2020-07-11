@@ -8,9 +8,24 @@
       img-width="1024"
       img-height="480"
     >
-      <b-carousel-slide alt="kitchen cabinets" img-src="../../assets/cabinet-1.jpg"></b-carousel-slide>
-      <b-carousel-slide alt="kitchen cabinets" img-src="../../assets/cabinet-2.jpg"></b-carousel-slide>
-      <b-carousel-slide alt="bathroom cabinets" img-src="../../assets/cabinet-3.jpg"></b-carousel-slide>
+      <b-carousel-slide
+        class="slideText"
+        alt="kitchen cabinets"
+        img-src="../../assets/cabinet-1.jpg"
+        text="Custom Cabinets"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        class="slideText"
+        alt="kitchen cabinets"
+        img-src="../../assets/cabinet-2.jpg"
+        text="Custom post-formed laminate countertops"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        class="slideText"
+        alt="bathroom cabinets"
+        img-src="../../assets/cabinet-3.jpg"
+        text="Under-mount Sinks"
+      ></b-carousel-slide>
     </b-carousel>
   </div>
 </template>
@@ -18,3 +33,11 @@
 <script>
 export default {};
 </script>
+
+<style scoped>
+.slideText {
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.445) !important;
+  color: red !important;
+}
+</style>
