@@ -13,8 +13,8 @@ export default {
   name: "app",
   components: {
     Navbar,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>
 
@@ -30,6 +30,6 @@ export default {
 }
 
 body {
-  background-color: white !important;
+  background-color: rgb(238, 234, 234) !important;
 }
 </style>

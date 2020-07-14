@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="contactInfo">
-      <div class="fontStyle">
+      <div class="fontStyle d-flex justify-content-center flex-column">
         <div class="companyName">
           <b>EAST CENTRAL COUNTERTOPS</b>
         </div>
-        <div class="solid-border"></div>
+        <div class="solid-border align-self-center"></div>
         <p>
           1814 220th Ave
           <br />Mora, MN 55051
@@ -57,9 +57,8 @@ export default {};
 }
 
 .fontStyle {
-  text-align: left;
+  text-align: center;
   color: rgba(214, 214, 214, 0.692);
-  margin-left: 150px;
   margin-top: 40px;
 }
 
@@ -68,6 +67,7 @@ export default {};
   width: 5%;
   margin-top: 1%;
   margin-bottom: 2%;
+  text-align: center;
 }
 
 a {

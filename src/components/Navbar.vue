@@ -7,8 +7,8 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item :to="{ name: 'About' }">About Us</b-nav-item>
+        <!-- <b-nav-item :to="{ name: 'Offers' }">Services Offered</b-nav-item> -->
         <b-nav-item :to="{ name: 'Contact' }">Contact Us</b-nav-item>
-        <b-nav-item :to="{ name: 'Offers' }">Services Offered</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

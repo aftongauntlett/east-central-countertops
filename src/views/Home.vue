@@ -46,8 +46,9 @@ export default {
 }
 
 .jumbotron {
-  padding-bottom: 10px;
+  margin-top: 20px;
   margin-bottom: unset !important;
+  padding: 20px;
   background-color: white !important;
   border: none !important;
 }
@@ -55,8 +56,10 @@ export default {
 .display-3 {
   font-family: "Charm", cursive;
   font-size: 75px;
+  color: green;
 }
 
 .lead {
+  color: green;
 }
 </style>

@@ -43,6 +43,7 @@ export default {
 }
 
 .jumbotron {
+  margin-top: 20px;
   padding-bottom: 10px;
   margin-bottom: unset !important;
   background-color: white !important;
