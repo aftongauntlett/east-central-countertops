@@ -1,13 +1,9 @@
 <template>
   <div>
     <div class="d-flex justify-content-center mt-3 mb-3">
-      <div style="max-width: 600px; min-width: 235px" class="w-50">
+      <div style="max-width: 600px; min-width: 235px" class="w-10">
         <b-form @submit="onSubmit" v-if="show">
-          <b-form-group
-            id="email-input-group"
-            label="Email address:"
-            label-for="email-input"
-          >
+          <b-form-group id="email-input-group" label="Email address:" label-for="email-input">
             <b-form-input
               id="email-input"
               v-model="form.email"
@@ -17,24 +13,11 @@
             ></b-form-input>
           </b-form-group>
 
-          <b-form-group
-            id="name-input-group"
-            label="Your Name:"
-            label-for="name-input"
-          >
-            <b-form-input
-              id="name-input"
-              v-model="form.name"
-              required
-              placeholder="Enter name"
-            ></b-form-input>
+          <b-form-group id="name-input-group" label="Your Name:" label-for="name-input">
+            <b-form-input id="name-input" v-model="form.name" required placeholder="Enter name"></b-form-input>
           </b-form-group>
 
-          <b-form-group
-            id="number-input-group"
-            label="Your Number:"
-            label-for="number-input"
-          >
+          <b-form-group id="number-input-group" label="Your Number:" label-for="number-input">
             <b-form-input
               id="number-input"
               v-model="form.number"
@@ -52,9 +35,7 @@
               max-rows="6"
             ></b-form-textarea>
           </b-form-group>
-          <b-button class="pButton" type="submit" variant="dark"
-            >Submit</b-button
-          >
+          <b-button class="pButton" type="submit" variant="dark">Submit</b-button>
         </b-form>
 
         <div>
@@ -76,9 +57,9 @@ export default {
         email: "",
         number: "",
         name: "",
-        message: "",
+        message: ""
       },
-      show: true,
+      show: true
     };
   },
   methods: {
@@ -86,7 +67,7 @@ export default {
       evt.preventDefault();
       axios
         .get(
-          `https://us-central1-gauntlett-design.cloudfunctions.net/sendMail?dest=gauntlet.design@gmail.com&email=${this.form.email}&name=${this.form.name}&number=${this.form.number}&message=${this.form.message}`
+          `https://us-central1-gauntlett-design.cloudfunctions.net/sendMail?dest=contact@eastcentralcountertops.com&email=${this.form.email}&name=${this.form.name}&number=${this.form.number}&message=${this.form.message}`
         )
         .then(() => {
           this.$bvModal.show("modal-center");
@@ -94,14 +75,14 @@ export default {
             email: "",
             number: "",
             name: "",
-            message: "",
+            message: ""
           };
         })
-        .catch((e) => {
+        .catch(e => {
           alert(e);
         });
-    },
-  },
+    }
+  }
 };
 </script>
 

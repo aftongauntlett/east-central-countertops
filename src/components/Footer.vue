@@ -2,25 +2,31 @@
   <div>
     <div class="contactInfo">
       <div class="fontStyle">
-        <b>EAST CENTRAL COUNTERTOPS</b>
+        <div class="companyName">
+          <b>EAST CENTRAL COUNTERTOPS</b>
+        </div>
+        <div class="solid-border"></div>
         <p>
-          1814 220th Ave <br />
-          Mora, MN 55051
+          1814 220th Ave
+          <br />Mora, MN 55051
         </p>
-        <p>Phone: +1 320 679 8288</p>
+        <div>Phone: +1 320 679 8288</div>
         <div>
-          <a href="mailto:contact@eastcentralcountertops.com"
-            >contact@eastcentralcountertops.com</a
-          >
+          Email:
+          <a
+            href="mailto:contact@eastcentralcountertops.com"
+          >contact@eastcentralcountertops.com</a>
         </div>
         <div>
-          <a href="http://www.eastcentralcountertops.com"
-            >http://www.eastcentralcountertops.com</a
-          >
+          Website:
+          <a
+            href="http://www.eastcentralcountertops.com"
+          >http://www.eastcentralcountertops.com</a>
         </div>
       </div>
       <div class="footerFont">
-        &copy; 2020 Copyright East Central Countertops and Cabinets
+        &copy; Copyright 2020 |
+        <span style="color: white">East Central Countertops</span> | All Rights Reserved
       </div>
     </div>
   </div>
@@ -34,22 +40,46 @@ export default {};
 .footerFont {
   padding-top: 30px;
   padding-bottom: 20px;
-  color: white;
+  color: rgba(214, 214, 214, 0.692);
+  border-top: 2px solid rgba(151, 151, 151, 0.445);
+  margin-top: 40px;
+}
+
+.companyName {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: white !important;
 }
 
 .contactInfo {
   padding-top: 20px;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(41, 41, 41);
 }
 
 .fontStyle {
   text-align: left;
-  color: white;
-  margin-left: 350px;
+  color: rgba(214, 214, 214, 0.692);
+  margin-left: 150px;
   margin-top: 40px;
 }
 
-b {
-  border-bottom: 3px solid rgb(172, 172, 172);
+.solid-border {
+  border: 1px solid rgb(235, 235, 235);
+  width: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+a {
+  color: rgb(255, 196, 0);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgb(255, 145, 0);
 }
 </style>

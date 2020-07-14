@@ -1,18 +1,15 @@
 <template>
-  <b-jumbotron
-    class="jumbotron"
-    bg-variant="info"
-    text-variant="black"
-    border-variant="dark"
-  >
+  <b-jumbotron class="jumbotron" bg-variant="info" text-variant="black" border-variant="dark">
     <template v-slot:header>Contact Us</template>
     <hr class="my-4" />
     <div class="contact">
       <div class="d-flex justify-content-around flex-wrap">
-        <Form />
-        <Info />
-        <Map />
+        <div>
+          <Form />
+          <Info />
+        </div>
       </div>
+      <Map />
     </div>
   </b-jumbotron>
 </template>
@@ -27,8 +24,8 @@ export default {
   components: {
     Form,
     Info,
-    Map,
-  },
+    Map
+  }
 };
 </script>
 

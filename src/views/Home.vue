@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-jumbotron bg-variant="info" text-variant="black" border-variant="dark">
-      <template v-slot:header>East Central Countertops and Cabinets </template>
+      <template v-slot:header>East Central Countertops and Cabinets</template>
 
       <template v-slot:lead>
         Building custom cabinets and laminate countertops in East Central
@@ -35,8 +35,8 @@ export default {
     Jumbotron,
     Button,
     Info,
-    Map,
-  },
+    Map
+  }
 };
 </script>
 <style scoped>
@@ -48,5 +48,15 @@ export default {
 .jumbotron {
   padding-bottom: 10px;
   margin-bottom: unset !important;
+  background-color: white !important;
+  border: none !important;
+}
+
+.display-3 {
+  font-family: "Charm", cursive;
+  font-size: 75px;
+}
+
+.lead {
 }
 </style>

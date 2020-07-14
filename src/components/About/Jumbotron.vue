@@ -24,7 +24,7 @@
 <script>
 export default {
   name: "Jumbotron",
-  components: {},
+  components: {}
 };
 </script>
 
@@ -45,6 +45,7 @@ export default {
 .jumbotron {
   padding-bottom: 10px;
   margin-bottom: unset !important;
-  margin: 20px;
+  background-color: white !important;
+  border: none !important;
 }
 </style>

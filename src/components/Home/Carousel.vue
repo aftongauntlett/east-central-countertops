@@ -37,7 +37,5 @@ export default {};
 <style scoped>
 .slideText {
   font-size: 40px;
-  background-color: rgba(0, 0, 0, 0.445) !important;
-  color: red !important;
 }
 </style>
