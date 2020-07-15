@@ -2,19 +2,25 @@
   <div>
     <b-jumbotron bg-variant="info" text-variant="black" border-variant="dark">
       <template v-slot:header>East Central Countertops and Cabinets</template>
-
       <template v-slot:lead>
         Building custom cabinets and laminate countertops in East Central
         Minnesota
       </template>
       <hr class="my-4" />
     </b-jumbotron>
-
     <Carousel />
-    <Jumbotron />
-    <Button />
-    <Form />
-    <Info />
+    <div class="pt-5">
+      <Title title="About Us" />
+    </div>
+    <Jumbotron :home="true" />
+
+    <Title title="Contact Us" />
+    <div class="d-flex justify-content-around flex-wrap">
+      <Form />
+      <Info />
+    </div>
+    <Title title="Find Us" />
+
     <Map />
   </div>
 </template>
@@ -23,9 +29,9 @@
 import Carousel from "../components/Home/Carousel";
 import Form from "../components/Contact/Form";
 import Jumbotron from "../components/About/Jumbotron";
-import Button from "../components/About/Button";
 import Info from "../components/Contact/Info";
 import Map from "../components/Contact/Map";
+import Title from "../components/Shared/PageTitle";
 
 export default {
   name: "Home",
@@ -33,9 +39,9 @@ export default {
     Carousel,
     Form,
     Jumbotron,
-    Button,
     Info,
-    Map
+    Map,
+    Title
   }
 };
 </script>
@@ -55,11 +61,18 @@ export default {
 
 .display-3 {
   font-family: "Charm", cursive;
-  font-size: 75px;
-  color: green;
+  font-size: 55px;
+  color: rgb(26, 104, 26);
 }
 
 .lead {
-  color: green;
+  color: rgb(26, 104, 26);
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+>>> .carousel-caption {
+  background-color: rgba(44, 43, 43, 0.493);
+  border-radius: 12px;
 }
 </style>

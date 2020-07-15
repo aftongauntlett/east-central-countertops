@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="d-flex justify-content-center mt-3 mb-3">
-      <div style="max-width: 600px; min-width: 235px" class="w-10">
+      <div style="max-width: 600px; min-width: 400px" class="formFill w-10">
         <b-form @submit="onSubmit" v-if="show">
           <b-form-group id="email-input-group" label="Email address:" label-for="email-input">
             <b-form-input
@@ -104,5 +104,21 @@ export default {
   font-family: "Martel", serif;
   font-size: 20px;
   text-align: center;
+}
+
+.b-form {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+@media only screen and (min-width: 300px) {
+  .formFill {
+    min-width: 235px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .formFill {
+    min-width: 400px !important;
+  }
 }
 </style>

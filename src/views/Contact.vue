@@ -1,36 +1,35 @@
 <template>
-  <b-jumbotron class="jumbotron" bg-variant="info" text-variant="black" border-variant="dark">
-    <template v-slot:header>Contact Us</template>
-    <hr class="my-4" />
-    <div class="contact">
-      <div class="d-flex justify-content-around flex-wrap">
-        <div>
-          <Form />
-          <Info />
-        </div>
+  <div>
+    <Title title="Contact Us"></Title>
+    <div class="d-flex justify-content-around flex-wrap">
+      <div>
+        <Info />
+        <Form />
       </div>
-      <Map />
     </div>
-  </b-jumbotron>
+    <Map />
+  </div>
 </template>
 
 <script>
 import Form from "../components/Contact/Form";
 import Map from "../components/Contact/Map";
 import Info from "../components/Contact/Info";
+import Title from "../components/Shared/PageTitle";
 
 export default {
   name: "Contact",
   components: {
     Form,
     Info,
-    Map
+    Map,
+    Title
   }
 };
 </script>
 
 <style scoped>
-.jumbotron {
+.contact {
   padding-bottom: 10px;
   margin-bottom: unset !important;
   background-color: white !important;

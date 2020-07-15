@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="w-100 d-flex flex-wrap flex-column">
     <Navbar />
-    <router-view class="container" />
+    <router-view class="container mt-4 pt-2" />
     <Footer class="mt-auto" />
   </div>
 </template>
@@ -27,6 +27,11 @@ export default {
   color: #2c3e50;
   min-height: 100vh;
   min-width: 100vw;
+}
+
+.container {
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 body {

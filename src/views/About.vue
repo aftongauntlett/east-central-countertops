@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Title title="About Us" />
     <div>
       <Jumbotron />
       <Offers />
@@ -10,13 +11,15 @@
 <script>
 import Offers from "../components/About/Offers";
 import Jumbotron from "../components/About/Jumbotron";
+import Title from "../components/Shared/PageTitle";
 
 export default {
   name: "About",
   components: {
     Offers,
     Jumbotron,
-  },
+    Title
+  }
 };
 </script>
 

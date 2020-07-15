@@ -2,15 +2,9 @@
   <div>
     <div>
       <div>
-        <b-jumbotron
-          bg-variant="info"
-          text-variant="black"
-          border-variant="dark"
-        >
-          <template v-slot:header>Services Offered</template>
-          <hr class="my-4" />
-          <Offers />
-        </b-jumbotron>
+        <h2>Services Offered</h2>
+        <hr class="my-4" />
+        <Offers />
       </div>
     </div>
   </div>
@@ -21,8 +15,8 @@ import Offers from "../components/About/Offers";
 export default {
   name: "About",
   components: {
-    Offers,
-  },
+    Offers
+  }
 };
 </script>
 

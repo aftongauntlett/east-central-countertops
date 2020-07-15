@@ -2,7 +2,7 @@
   <div>
     <div class="contactInfo">
       <div class="fontStyle d-flex justify-content-center flex-column">
-        <div class="companyName">
+        <div class="companyName grow">
           <b>EAST CENTRAL COUNTERTOPS</b>
         </div>
         <div class="solid-border align-self-center"></div>
@@ -43,12 +43,22 @@ export default {};
   color: rgba(214, 214, 214, 0.692);
   border-top: 2px solid rgba(151, 151, 151, 0.445);
   margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .companyName {
   padding-bottom: 20px;
   font-size: 25px;
   color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.companyName:hover {
+  transform: scale(1.1);
 }
 
 .contactInfo {
@@ -60,6 +70,7 @@ export default {};
   text-align: center;
   color: rgba(214, 214, 214, 0.692);
   margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .solid-border {

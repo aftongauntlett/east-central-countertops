@@ -7,7 +7,7 @@
         </div>
         <div>
           <h4>{{ offer.title }}</h4>
-          <div>{{ offer.description }}</div>
+          <div class="description">{{ offer.description }}</div>
         </div>
       </div>
     </div>
@@ -59,5 +59,16 @@ export default {
 img {
   width: 30%;
   height: auto;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: rgb(26, 104, 26);
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
 }
 </style>

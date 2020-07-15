@@ -9,18 +9,21 @@
       img-height="480"
     >
       <b-carousel-slide
+        content-visible-up="md"
         class="slideText"
         alt="kitchen cabinets"
         img-src="../../assets/cabinet-1.jpg"
         text="Custom Cabinets"
       ></b-carousel-slide>
       <b-carousel-slide
+        content-visible-up="md"
         class="slideText"
         alt="kitchen cabinets"
         img-src="../../assets/cabinet-2.jpg"
         text="Custom post-formed laminate countertops"
       ></b-carousel-slide>
       <b-carousel-slide
+        content-visible-up="md"
         class="slideText"
         alt="bathroom cabinets"
         img-src="../../assets/cabinet-3.jpg"
@@ -36,6 +39,7 @@ export default {};
 
 <style scoped>
 .slideText {
-  font-size: 40px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 </style>

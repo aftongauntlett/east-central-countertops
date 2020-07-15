@@ -26,7 +26,6 @@ export default {};
 <style scoped>
 a {
   color: rgb(0, 119, 255);
-
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -36,5 +35,10 @@ a {
 
 a:hover {
   color: rgb(52, 57, 63);
+}
+
+.card {
+  border: unset !important;
+  font-family: "Montserrat", sans-serif;
 }
 </style>
