@@ -16,5 +16,6 @@ h2 {
   font-size: 40px;
   color: rgb(26, 104, 26);
   font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
 }
 </style>

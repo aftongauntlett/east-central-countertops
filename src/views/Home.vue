@@ -59,20 +59,36 @@ export default {
   border: none !important;
 }
 
-.display-3 {
-  font-family: "Charm", cursive;
-  font-size: 55px;
-  color: rgb(26, 104, 26);
-}
-
-.lead {
-  color: rgb(26, 104, 26);
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-}
-
 >>> .carousel-caption {
   background-color: rgba(44, 43, 43, 0.493);
   border-radius: 12px;
+}
+
+@media only screen and (min-width: 300px) {
+  .display-3 {
+    font-family: "Marcellus", serif;
+    font-size: 35px;
+    color: rgb(26, 104, 26);
+  }
+
+  .lead {
+    font-size: 15px;
+    color: rgb(26, 104, 26);
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .display-3 {
+    font-family: "Marcellus", serif;
+    color: rgb(26, 104, 26);
+    font-size: 55px;
+  }
+
+  .lead {
+    color: rgb(26, 104, 26);
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 </style>

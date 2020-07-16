@@ -57,14 +57,20 @@ export default {
 }
 
 img {
-  width: 30%;
+  width: 50%;
   height: auto;
+  transition: ease-in-out 0.2s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: rgb(26, 104, 26);
+  padding-top: 20px;
 }
 
 .description {
