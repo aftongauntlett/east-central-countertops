@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-jumbotron bg-variant="info" text-variant="black" border-variant="dark">
-      <template v-slot:header>East Central Countertops and Cabinets</template>
+      <template v-slot:header>East Central Countertops</template>
       <template v-slot:lead>
         Building custom cabinets and laminate countertops in East Central
         Minnesota

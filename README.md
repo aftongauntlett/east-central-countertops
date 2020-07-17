@@ -1,4 +1,4 @@
-# Portfolio
+# East Central Countertops
 
 ![GitHub followers](https://img.shields.io/github/followers/aftongauntlett?style=social)
 
@@ -8,7 +8,9 @@
 
 ## Description
 
-Built using the following technologies:
+Designed and built for East Central Countertops.
+
+## Technologies Used
 
 - Vue
 - HTML
@@ -16,8 +18,6 @@ Built using the following technologies:
 - Bootstrap
 - JavaScript
 - Firebase
-
-# east-central-countertops
 
 ## Project setup
 
