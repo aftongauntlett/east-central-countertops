@@ -4,7 +4,9 @@
 
 **Github Repo:** https://github.com/aftongauntlett/east-central-countertops
 
-**Deployed:** https://www.eastcentralcountertops.com/
+**Currently Deployed:** https://east-central-countertops.web.app/#/
+
+**Future Deployed:** https://www.eastcentralcountertops.com/
 
 ## Description
 
