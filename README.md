@@ -6,8 +6,6 @@
 
 **Currently Deployed:** https://east-central-countertops.web.app/#/
 
-**Future Deployed:** https://www.eastcentralcountertops.com/
-
 ## Description
 
 Designed and built for East Central Countertops.
